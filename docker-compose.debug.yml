@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  softmed:
+    image: softmed
+    build:
+      context: .
+      dockerfile: ./Dockerfile
